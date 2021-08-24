@@ -1,4 +1,4 @@
-//Basics and Printing A Good First Program 4 pts Happy Kan
+//Basic and Printing A Good First Program 4 pts Happy Kan
 public class GoodFirstProgram
 {
     public static void main ( String[] args )
