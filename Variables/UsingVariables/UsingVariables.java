@@ -1,3 +1,4 @@
+//Variables Using Variables 9 pts Happy Kan
 public class UsingVariables
 {
     public static void main( String[] args )
