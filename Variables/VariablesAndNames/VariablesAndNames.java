@@ -1,3 +1,4 @@
+//Variable Variables and Names 7 pts Happy Kan
 public class VariablesAndNames
 {
     public static void main( String[] args )
@@ -6,7 +7,7 @@ public class VariablesAndNames
         double space_in_a_car, carpool_capacity, average_passengers_per_car;
 
         cars = 100;
-        space_in_a_car = 4.0;
+        space_in_a_car = 4.0; //it's the same result when I used 4 instead of 4.0
         drivers = 30;
         passengers = 90;
         cars_not_driven = cars - drivers;
