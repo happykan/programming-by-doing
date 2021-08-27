@@ -1,3 +1,5 @@
+//Keyboard Input Asking Questions 10 pts Happy Kan
+
 import java.util.Scanner;
 public class AskingQuestions
 {
