@@ -1,4 +1,4 @@
-//If Statements Weekday Name 20 pts Happy Kan
+//If Statements Weekday Name 15 pts Happy Kan
 
 import java.util.GregorianCalendar;
 public class WeekdayName
