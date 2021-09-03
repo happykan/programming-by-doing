@@ -48,6 +48,6 @@ public class ElseAndIf
     }
 }
 
-// else: if something then do something
-// else if: if something or if something
+// else: not the 'if' statement nor 'else if' statement, then the it will print the else statement
+// else if: if statement + another if statement
 // if remove else of else if, it will become another 'if' statement
