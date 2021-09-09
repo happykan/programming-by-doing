@@ -34,6 +34,10 @@ public class ChooseYourOwnAdventure
                     System.out.println( "You will have a stomach ache." );
                 }
             }
+            else if (answer2.equals("cabinet"))
+            {
+                System.out.println( "Game over" );
+            }
         }
         else if ( answer1.equals ("upstairs") )
         {
@@ -53,6 +57,10 @@ public class ChooseYourOwnAdventure
                 {
                     System.out.println( "Good job! Thanks for playing." );
                 }
+            }
+            else if (answer2.equals("bathroom") )
+            {
+                System.out.println( "You died." );
             }
         }
         
