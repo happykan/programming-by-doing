@@ -1,6 +1,6 @@
 //GUIs A Boring Window 10 pts Happy Kan
-import java.swing.*;
-public class ABoringWindow extends JFrame
+import javax.swing.*;
+public class BoringWindow extends JFrame
 {
     public static void main( String[]args )
     {
