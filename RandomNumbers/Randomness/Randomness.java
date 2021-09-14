@@ -44,4 +44,4 @@ public class Randomness
 // 1. The new range of the randome numbers will be 1-4
 // 2. No. The new range will be 1-7
 // 3. The answers will be the same. 
-// 4. No matter how many times I tried, the results are all the same. Changing the random seed won't impact the result.
+// 4. No matter how many times I tried, the results are all the same.
