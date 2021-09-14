@@ -1,6 +1,6 @@
 //If Statements P2 Twenty Questions...well, actually just Two pt 35 Happy Kan
 import java.util.Scanner;
-public class TwentyQuestionsWellActuallyJustTwo
+public class TwentyQuestions
 {
     public static void main( String[]args )
     {
