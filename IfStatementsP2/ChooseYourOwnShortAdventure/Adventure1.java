@@ -1,6 +1,6 @@
 //If Statements P2 Choose Your Own Adventure pt 60 Happy Kan
 import java.util.Scanner;
-public class ChooseYourOwnAdventure
+public class Adventure1
 {
     public static void main( String[]args )
     {
