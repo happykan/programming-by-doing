@@ -21,3 +21,7 @@ public class EnterPIN
         System.out.println( "\nPIN ACCEPTED. YOU NOW HAVE ACCESS TO YOUR ACCOUNT." );
     }
 }
+// 1. Similar to conditional if statements, which are blocks of code that only execute if a specific condition evaluates to true.
+// 2. while loop does things as long as the condition is true.
+// 3. The entry is already set as int before the while loop
+// 4. "Incorrect code" keeps appearing. Because entry != pin. Without the original line, it will run in the loop forever because the condition is true.
