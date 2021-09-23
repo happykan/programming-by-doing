@@ -16,17 +16,11 @@ public class KeepGuessing
         
         while ( x != ans )
         {
+            System.out.println( "That is incorrect. Guess again." );
             System.out.print( "Your guess: " );
             ans = keyboard.nextInt();
-            if ( x == ans )
-            {
-                System.out.println( "That's right! You're a good guesser." );
-            }
-            else
-            {
-                System.out.println( "That is incorrect. Guess again." );
-            }
         }
+        System.out.println( "That's right! You're a good guesser." );
         
     }
 }
