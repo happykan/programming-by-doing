@@ -19,15 +19,15 @@ public class HowOldAreYouSpecifically
         {
             System.out.println( "You can't dirve, " + name + "." );
         }        
-        else if ( 16 <= age <= 17 )
+        else if ( age <= 17 && age>=16)
         {
             System.out.println( "You can drive but not vote, " + name + "." );
         }
-        else if ( 18 <= age <= 24 )
+        else if ( age <= 24 && age >=18)
         {
             System.out.println( "You can vote but not rent a car, " + name + "." );
         }
-        else ( age >= 25 )
+        else if ( age >= 25 )
         {
             System.out.println( "You can do pretty much anything, " + name + "." );
         }
