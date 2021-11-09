@@ -1,3 +1,4 @@
+//Graphics Graphics Demo 1 
 import java.awt.*;
 import javax.swing.JFrame;
 

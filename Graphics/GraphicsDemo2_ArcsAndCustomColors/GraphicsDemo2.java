@@ -1,3 +1,4 @@
+//Graphics Graphics Demo 2 20 pts Happy Kan
 import java.awt.*;
 import javax.swing.JFrame;
 
@@ -20,6 +21,8 @@ public class GraphicsDemo2 extends Canvas
 
 		g.setColor(Color.yellow);
 		g.fillArc(150,400,150,150,45,270); // chomp
+		g.setColor(Color.pink);
+		g.fillArc(300,400,100,100,225,270);
 		
 		// custom colors
 		Color myOrange = new Color(230,92,0); // the amount of red, green, blue in the color
