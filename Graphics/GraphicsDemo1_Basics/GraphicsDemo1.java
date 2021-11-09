@@ -1,4 +1,4 @@
-//Graphics Graphics Demo 1 
+//Graphics Graphics Demo 1 20 pts Happy Kan
 import java.awt.*;
 import javax.swing.JFrame;
 
