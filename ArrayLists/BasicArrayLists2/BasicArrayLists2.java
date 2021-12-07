@@ -17,7 +17,7 @@ public class BasicArrayLists2
     public static int getNumbers()
     {
         Random r = new Random();
-        int x = 1+r.nextInt(100);
+        int x = 1+r.nextInt();
         return x;
     }
 }
