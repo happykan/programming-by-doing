@@ -1,25 +1,17 @@
-// Sorting Bubble Sort 130 points Happy Kan
+// Sorting Exchange Sort 120 points Happy Kan
 import java.util.Random;
 
-public class BubbleSort
+public class ExchangeSort
 {
-	public static void bubble_sort( int[] a )
+	public static void exchange_sort( int[] a )
 	{
 		// Your code goes here
-		boolean keep_sort = true;
-		int j = 0;
-		
-		while ( keep_sort )
+		for ( int i = 0; i < a.length; i++ )
 		{
-			keep_sort = false;
-			j++;
-			for ( int i = 0; i < a.length - j; i++ )
+			for ( int j = i + 1; j < a.length; j++ )
 			{
-				if ( a[i] > a[i + 1] )
-				{
-					swap( a, i, i + 1 );
-					keep_sort = true;
-				}
+				if ( a[i] > a[j] )
+					swap( a, i, j );
 			}
 		}
 	}
@@ -27,7 +19,6 @@ public class BubbleSort
 
 	public static void swap( int[] a , int i, int j )
 	{
-		// Your code goes here
 		int temp = a[i];
 		a[i] = a[j];
 		a[j] = temp;
@@ -51,7 +42,7 @@ public class BubbleSort
 		System.out.println();
 
 		// Sort it
-		bubble_sort( arr );
+		exchange_sort( arr );
 
 		// Display it again to confirm that it's sorted
 		System.out.print("after : ");
