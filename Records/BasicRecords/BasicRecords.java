@@ -6,20 +6,6 @@ class Student
     String name;
     int grade;
     double avg;
-
-    void insert(String namee, int gradee, double avgg)
-    {
-        name = namee;
-        grade = gradee;
-        avg = avgg;
-    }
-
-    void print()
-    {
-        System.out.println(name);
-        System.out.println(grade);
-        System.out.println(avg);
-    }
 }
 public class BasicRecords
 {
@@ -27,47 +13,44 @@ public class BasicRecords
     {
         Scanner fin = new Scanner (System.in);
 
-        String test = fin.nextLine();
-        int test2 = fin.nextInt();
-        double test3 = fin.nextDouble();
-        String test4 = fin.nextLine();
-
-        Student oneS = new Student();
+        Student one = new Student();
+        Student two = new Student();
+        Student three = new Student();
         
-        oneS.insert(test,test2,test3);
+        System.out.print("Enter the first student's name: ");
+        one.name = fin.next();
+        System.out.print("Enter the first student's grade: ");
+        one.grade = fin.nextInt();
+        System.out.print("Enter the first student's average: ");
+        one.avg = fin.nextDouble();
+        System.out.println();
 
-        test = fin.nextLine();
-        test2 = fin.nextInt();
-        test3 = fin.nextDouble();
-        test4 = fin.nextLine(); 
+        System.out.print("Enter the second student's name: ");
+        two.name = fin.next();
+        System.out.print("Enter the second student's grade: ");
+        two.grade = fin.nextInt();
+        System.out.print("Enter the second student's average: ");
+        two.avg = fin.nextDouble();
+        System.out.println();
 
-        Student second = new Student();
+        System.out.print("Enter the third student's name: ");
+        three.name = fin.next();
+        System.out.print("Enter the third student's grade: ");
+        three.grade = fin.nextInt();
+        System.out.print("Enter the third student's average: ");
+        three.avg = fin.nextDouble();
+        System.out.println();
 
-        second.insert(test,test2,test3);
+        System.out.print("The names are: " + one.name + " " + two.name + " " + three.name);
+        System.out.println();
+        System.out.print("The grades are: " + one.grade + " " + two.grade + " " + three.grade);
+        System.out.println();
+        System.out.print("The averages are: " + one.avg + " " + two.avg + " " + three.avg);
+        System.out.println();
+        
+        double total_avg = ((one.avg+two.avg+three.avg)/3);
+        System.out.print("The average for the three students is : " + total_avg);
 
-        test = fin.nextLine();
-        test2 = fin.nextInt();
-        test3 = fin.nextDouble();
-        test4 = fin.nextLine();
 
-        Student third = new Student();    
-
-        third.insert(test,test2,test3);
-
-        test = fin.nextLine();
-        test2 = fin.nextInt();
-        test3 = fin.nextDouble();
-        test4 = fin.nextLine();
-
-        //System.
-        // oneS.name = fin.next();
-        // oneS.grade = fin.nextInt();
-        // oneS.avg = fin.nextDouble();
-
-        oneS.print();
-        second.print();
-        third.print();
-
-        System.out.print("The names are: " + test);
-    }
-}
+    }    
+}        
